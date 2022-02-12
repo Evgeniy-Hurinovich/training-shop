@@ -3,6 +3,9 @@
 
   .cards-item-img {
     width: 100%;
+    &:hover{
+      transform: scale(1.1);
+    }
   }
 
   .sale {
@@ -15,6 +18,8 @@
     font-size: 12px;
     line-height: 13px;
     padding: 8px;
+
+   
   }
 
   .cards-item-name {
@@ -22,6 +27,8 @@
     line-height: 16px;
     color: #707070;
     padding: 14px 0;
+
+   
   }
 
   .cards-item-price {

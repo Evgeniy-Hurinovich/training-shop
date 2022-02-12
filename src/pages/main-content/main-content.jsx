@@ -16,7 +16,7 @@ export const Main = () => (
     </div>
     <Subscribe />
     <div className='wrapper'>
-      <Blog />
+    <Blog />
     </div>    
   </>
 );

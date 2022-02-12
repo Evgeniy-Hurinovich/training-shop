@@ -8,6 +8,9 @@
     display: flex;
     align-items: center;
     color: #121212;
+    &:hover{
+      transform: scale(1.1);
+    }
   }
 }
 
