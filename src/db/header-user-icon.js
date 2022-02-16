@@ -1,7 +1,6 @@
 import iconSearch from '../assets/search.svg';
 import iconGlob from '../assets/globus.svg';
 import iconUser from '../assets/user.svg';
-
 export const USER_BLOCK = [
   {
     id: '1',

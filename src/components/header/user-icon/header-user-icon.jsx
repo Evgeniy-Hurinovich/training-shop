@@ -1,9 +1,6 @@
 import { Basket } from '../../cart/basket';
-
 import { USER_BLOCK } from '../../../db/header-user-icon';
-
 import './header-icons-nav.scss';
-
 export const HeadUserIcon = () => {
   return (
     <div className='header-icons-nav'>

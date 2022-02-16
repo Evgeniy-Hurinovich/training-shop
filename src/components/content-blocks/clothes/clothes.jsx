@@ -1,11 +1,8 @@
 import { Link } from 'react-router-dom';
-
 import { CardItem } from '../../card-item';
 import { THINGS } from '../../../db/things';
 import { NAV_CLOTHES } from '../../../db/nav-clothes';
-
 import './clothes.scss';
-
 export const Clothes = ({ productType }) => (
   <div className='clothes' data-test-id={`clothes-${productType}`}>
     <div className='clothes-header'>

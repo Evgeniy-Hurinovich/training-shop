@@ -1,9 +1,6 @@
 import { Rating } from '../rating';
-
 import { REVIEWS } from '../../db/reviews';
-
 import './reviews.scss';
-
 export const Reviews = () => (
   <div className='reviews'>
     {REVIEWS.map(({ id, name, time, text, rating }) => (

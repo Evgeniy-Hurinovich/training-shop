@@ -1,14 +1,10 @@
 import { Link } from 'react-router-dom';
-
 import { Contacts } from './contacts';
 import { SocNet } from '../soc-panel';
 import logo from '../../assets/logo.svg';
 import { Menu } from './menu';
-
 import { HeadUserIcon } from './user-icon';
-
 import './header.scss';
-
 export const Header = () => (
   <div className='header' data-test-id='header'>
     <div className='header-contacts'>

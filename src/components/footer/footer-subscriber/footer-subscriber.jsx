@@ -1,7 +1,5 @@
 import { SocNet } from '../../soc-panel/soc-net';
-
 import './footer-subscriber.scss';
-
 export const FooterSubscriber = () => (
   <div className='footer-subscriber'>
     <div className='wrapper'>

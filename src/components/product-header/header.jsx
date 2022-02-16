@@ -1,10 +1,7 @@
 import { Link } from 'react-router-dom';
-
 import { Rating } from    '../rating';
 import share from         '../../assets/share.svg';
-
 import './product-header.scss';
-
 export const Header = ({ productType, name, rating }) => (
   <div className='product-page-header'>
     <div className='header-abowe wrapper'>

@@ -1,10 +1,6 @@
-//import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-
 import share from '../../assets/share.svg';
-
 import './products-header.scss';
-
 export const Header = ({ productType }) => (
   <div className='clothes-page-header'>
     <div className='header-abowe wrapper'>
@@ -24,7 +20,3 @@ export const Header = ({ productType }) => (
     </div>
   </div>
 );
-
-// ProductsHeader.propTypes = {
-//   productType: PropTypes.string.isRequired,
-// };

@@ -1,11 +1,7 @@
 import React from 'react';
-
 import { SERVICE } from '../../../db/service';
 import { ServisMenu } from './servis-item/servis-menu';
-
-
 import './benefits.scss';
-
 export const Servis = () => {
   return (
     <div className='benefits'>

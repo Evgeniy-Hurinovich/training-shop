@@ -1,14 +1,10 @@
 import { Link } from 'react-router-dom';
-
 import { FOOTER_NAV } from '../../../db/footer-nav';
-
 import locationMarker from './assets/location-marker.svg';
 import phone from './assets/phone.svg';
 import clock from './assets/clock.svg';
 import mail from './assets/mail.svg';
-
 import './footer-nav.scss';
-
 export const FooterNav = () => (
   <div className='footer-nav'>
     {FOOTER_NAV.map(({ id, links }) => (

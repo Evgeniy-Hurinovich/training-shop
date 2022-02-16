@@ -1,7 +1,5 @@
 import React from 'react';
-
 import './main-news.scss';
-
 export const News = () => {
   return (
     <div className='main-news'>

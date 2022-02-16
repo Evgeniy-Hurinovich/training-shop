@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
 import './section-nav.scss';
-
 export const SectionLinks = () => {
   return (
     <div className='section-nav'>

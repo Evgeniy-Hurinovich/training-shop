@@ -1,11 +1,7 @@
 import { Link } from 'react-router-dom';
-
 import { BlogArticles } from './articles/articles';
-
 import { BLOG } from '../../../db/blog';
-
 import './main-blog.scss';
-
 export const Blog = () => {
   return (
     <div className='main-blog'>

@@ -1,10 +1,7 @@
 import arrUp from       '../../assets/arr-up.svg';
 import arrDown from     '../../assets/arr-down.svg';
-
 import { Slider } from  '../slider';
-
 import './product-slider.scss';
-
 export const ThingsSlider = ({ array }) => (
   <div className='slider-product'>
     <div className='side-block'>

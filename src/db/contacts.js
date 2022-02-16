@@ -1,7 +1,6 @@
 import iconPhone from '../assets/phone.svg';
 import iconLocMark from '../assets/locMark.svg';
 import iconClock from '../assets/clock.svg';
-
 export const CONTACTS = [
   {
     id: '1',

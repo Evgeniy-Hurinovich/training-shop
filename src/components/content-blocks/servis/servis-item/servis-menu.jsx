@@ -1,6 +1,4 @@
-
 import './benefits-item.scss';
-
 export const ServisMenu = ({ img, title, text, name }) => {
   return (
     <div className='benefits-item'>

@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
 import './blog-item.scss';
-
 export const BlogArticles = ({ img, name, title, text, href }) => {
   return (
     <div className='blog-item'>

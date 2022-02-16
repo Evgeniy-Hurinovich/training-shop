@@ -1,12 +1,9 @@
-//import PropTypes from 'prop-types';
 import filterImg from     '../../assets/filter-img.svg';
 import change from        '../../assets/change.svg';
 import arrowDwn from      '../../assets/arrowDwn.svg';
 import btnGrid from       '../../assets/btnGrid.svg';
 import btnList from       '../../assets/btnList.svg';
-
 import './products-settings.scss';
-
 export const ProdFilter = ({ onToggleFilter, isFilterVisible }) => (
   <div className='products-settings'>
     <button className='filter' onClick={onToggleFilter} type='button'>
@@ -24,7 +21,3 @@ export const ProdFilter = ({ onToggleFilter, isFilterVisible }) => (
     </div>
   </div>
 );
-// ProductsSettings.propTypes = {
-//   onToggleFilter: PropTypes.func.isRequired,
-//   isFilterVisible: PropTypes.bool.isRequired,
-// };

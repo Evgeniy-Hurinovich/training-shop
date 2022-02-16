@@ -4,7 +4,6 @@ import { Clothes } from     '../../components/content-blocks/clothes';
 import { News } from        '../../components/content-blocks/news';
 import { Subscribe } from   '../../components/content-blocks/subscribe';
 import { Blog } from        '../../components/content-blocks/blog';
-
 export const Main = () => (
   <>
     <div className='wrapper'>

@@ -1,8 +1,6 @@
 import { FilterCheck } from './filter-check';
 import { FILTER } from      '../../db/filter';
-
 import './filter.scss';
-
 export const FilterSeting = () => (
   <div className='filter-block'>
     <div className='color'>

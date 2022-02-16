@@ -1,7 +1,6 @@
 .blog-item {
   margin-top: 48px;
   position: relative;
-
   .description-block {
     max-width: 302px;
     padding: 24px 16px 28px;
@@ -9,21 +8,18 @@
     position: absolute;
     bottom: -118px;
     left: 24px;
-
     .item-title {
       font-weight: 600;
       font-size: 14px;
       line-height: 22px;
       letter-spacing: 0.06em;
     }
-
     .item-text {
       font-size: 14px;
       line-height: 22px;
       color: #707070;
       margin-top: 12px;
     }
-
     .more {
       display: flex;
       justify-content: flex-end;
@@ -39,11 +35,9 @@
 @media all and (max-width: 1190px) {
   .blog-item {
     text-align: center;
-
     .item-img {
       width: 100%;
     }
-
     .description-block {
       max-width: 702px;
       padding: 24px;
@@ -58,7 +52,6 @@
     .item-img {
       width: 100%;
     }
-
     .description-block {
       padding: 18px;
       transform: translate(-50%, -160%);

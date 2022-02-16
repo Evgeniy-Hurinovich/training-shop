@@ -1,20 +1,12 @@
-// import { useEffect } from 'react';
 import {Route, Switch } from 'react-router-dom';
-//useLocation,
 import { Header } from '../header';
 import { Main } from '../../pages/main-content';
 import { ItemPage } from '../../pages/item-page';
-
 import { PageThings } from '../../pages/page-things';
-
 import { Footer } from '../footer';
 import './app.scss';
 
-export const App = () => {
-  // const { pathname } = useLocation();
-  // useEffect(() => {
-  //   window.scrollTo(0, 0);
-  // }, [pathname]);
+export const App = () => { 
   return (
     <div className='app' data-test-id='app'>
       <Header />  
@@ -28,7 +20,6 @@ export const App = () => {
         <Route exact path='/men'>
           <ItemPage productType='men' />
         </Route>
-
         <Route path='/women/:id'>
           <PageThings productType='women' />
         </Route>
@@ -37,21 +28,6 @@ export const App = () => {
         </Route>
       </Switch>
       <Footer />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </div>
   );
 };

@@ -5,9 +5,7 @@ import visa from './assets/visa.svg';
 import mastercard from './assets/mastercard.svg';
 import discover from './assets/discover.svg';
 import americanExpress from './assets/american-express.svg';
-
 import './footer-terminal.scss';
-
 export const FooterTerminal = () => (
   <div className='footer-terminal'>
     <div className='wrapper'>

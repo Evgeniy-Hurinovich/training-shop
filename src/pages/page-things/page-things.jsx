@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-
 import { Header } from                  '../../components/product-header';
 import { CardItem } from                '../../components/card-item/card-item';
 import { Rating } from                  '../../components/rating';
@@ -139,7 +138,3 @@ export const PageThings = ({ productType }) => {
     </div>
   );
 };
-
-// ProductPage.propTypes = {
-//   productType: PropTypes.string.isRequired,
-// };

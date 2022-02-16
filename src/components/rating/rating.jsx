@@ -1,15 +1,11 @@
 import star from '../../assets/star.svg';
 import starYel from '../../assets/star-yel.svg';
-
 import './rating.scss';
-
 const SIZ_STAR = {
   s: '14px',
   m: '22px',
 };
-
 const MAX_RATING = 5;
-
 export const Rating = ({ size, rating }) => {
   const arrRaiting = Array.from(Array(MAX_RATING).keys());
   return (
@@ -26,5 +22,3 @@ export const Rating = ({ size, rating }) => {
     </div>
   );
 };
-
-

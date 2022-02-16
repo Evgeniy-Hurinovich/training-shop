@@ -1,9 +1,6 @@
 import React from 'react';
-
 import { SOCIAL } from '../../db/soc-net';
-
 import './social-network.scss';
-
 export const SocNet = ({ size }) => {
   return (
     <div className='social-network'>

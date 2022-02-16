@@ -1,7 +1,6 @@
 import way from '../assets/way.jpg';
 import wedding from '../assets/wedding.jpg';
 import recent from '../assets/recent.jpg';
-
 export const BLOG = [
   {
     id: '1',

@@ -1,10 +1,6 @@
 import prev from '../../assets/prev.svg';
 import next from '../../assets/next.svg';
-
 import './slider.scss';
-
-
-
 export const Slider = ({ array }) => {
   return (
     <div className='slider'>

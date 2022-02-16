@@ -1,7 +1,5 @@
 import { CONTACTS } from '../../../db/contacts';
-
 import './contacts.scss';
-
 export const Contacts = () => (
   <div className='contacts'>
     {CONTACTS.map(({ id, href, data, imageSrc }) => (
